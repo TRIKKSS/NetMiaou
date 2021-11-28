@@ -1,6 +1,6 @@
 # **NetMiaou**
 
-***NetMiaou is an hacking tool that can do reverse shells, send files, create an http server or send and receive tcp packet*** 
+***NetMiaou is an crossplatform hacking tool that can do reverse shells, send files, create an http server or send and receive tcp packet*** 
 
 ## **USAGE**
 ![help image](images/help.png)
