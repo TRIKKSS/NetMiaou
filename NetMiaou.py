@@ -11,7 +11,7 @@ import time
 import http.server
 import socketserver
 
-parser = argparse.ArgumentParser(description="ncat made home", usage=f"usage : python3 {sys.argv[0]} [-h] [-l | -s | -q] [--show-payloads] [-H HOST] -P PORT [-f FILE | -m MESSAGE | -p] [-r] [-o OUTPUT]", epilog="you can see examples on https://github.com/TRIKKSS/NetMiaou")
+parser = argparse.ArgumentParser(description="NetMiaou, a netcat made home ^_^", usage=f"usage : python3 {sys.argv[0]} [-h] [-l | -s | -q] [--show-payloads] [-H HOST] -P PORT [-f FILE | -m MESSAGE | -p] [-r] [-o OUTPUT]", epilog="you can see examples on https://github.com/TRIKKSS/NetMiaou")
 
 mode = parser.add_argument_group(title="mode")
 mode = mode.add_mutually_exclusive_group(required=False)
